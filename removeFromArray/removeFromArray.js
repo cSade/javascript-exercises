@@ -1,5 +1,5 @@
 const removeFromArray = function(array) {
-array.splice();
+  return array.splice();
 };
 
 module.exports = removeFromArray;
