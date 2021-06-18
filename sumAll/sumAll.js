@@ -1,10 +1,7 @@
-const sumAll = function() {
- function add (a, b) {
-  return a + b;
- }
-  return function (sum) {
-   return sum.reduce(add);
-  };
+const sumAll = function(sum) {
+ let a = 0;
+ let b = 0;
+ return sum.reduce(a, b)
 };
 
 module.exports = sumAll;
