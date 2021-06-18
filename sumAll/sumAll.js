@@ -1,6 +1,5 @@
-const sumAll = function(sum) {
- sum.reduce(function (a, b) {
-  return a + b;
+const sumAll = function(a, b) {
+ return a + b;
  });
   
 };
