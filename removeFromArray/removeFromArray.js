@@ -3,6 +3,7 @@ const removeFromArray = function(array) {
   if (i >= 0) {
     array.splice(i, 1);
   return array
+  }
 };
 
 module.exports = removeFromArray;
