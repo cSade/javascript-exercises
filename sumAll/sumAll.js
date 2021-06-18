@@ -1,9 +1,6 @@
-const sumAll = function(finalSum) {
-  let x = '';
-  let n = '';
-  while (n < 2) 
-    n++; 
-    finalSum = x += n;
+const sumAll = function(sum) {
+ let finalSum = 0;
+  for (var i in sum) { finalSum += sum[1]; }
 };
 
 module.exports = sumAll;
