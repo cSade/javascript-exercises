@@ -1,6 +1,6 @@
 const sumAll = function(a, b) {
  return a + b;
- });
+
   
 };
 
