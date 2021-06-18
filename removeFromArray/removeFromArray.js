@@ -5,6 +5,8 @@ const removeFromArray = function(array) {
   return array
   } else {
     array.splice(0, i);
+    return array
+  }
 };
 
 module.exports = removeFromArray;
