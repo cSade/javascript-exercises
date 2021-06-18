@@ -1,5 +1,8 @@
 const removeFromArray = function(array) {
-  return array.splice(2,1);
+  i = array.indexOf(3);
+  if (i >= 0) {
+    array.splice(i, 1);
+  return array
 };
 
 module.exports = removeFromArray;
