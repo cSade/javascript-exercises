@@ -1,4 +1,4 @@
-const sumAll = function(sum) {
+const sumAll = function() {
  function add (a, b) {
   return a + b;
  }
