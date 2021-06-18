@@ -1,8 +1,8 @@
 const removeFromArray = function(array) {
-  let removeNum = ''
-  let i = array.indexOf(removeNum);
+
+  let i = array.indexOf(3);
   if (i >= 0) {
-    array.splice(i, 1);
+    array.splice(i,);
   return array
   } 
 };
