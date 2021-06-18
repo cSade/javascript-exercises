@@ -4,7 +4,7 @@ const removeFromArray = function(array) {
   if (i >= 0) {
     array.splice(i, 1);
   return array
-  } else (i >= array.length) {
+  } else if (i >= array.length) {
     array.splice(i, 5)
     return array
   }
