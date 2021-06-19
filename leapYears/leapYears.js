@@ -3,6 +3,7 @@ const leapYears = function(num) {
     return true;
   } else if (num%4 > 0) {
     return false;
+  }
 };
 
 module.exports = leapYears;
