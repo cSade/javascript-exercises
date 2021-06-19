@@ -1,6 +1,5 @@
 const leapYears = function(num,) {
-  let b = 0;
-  if (num %=4 && num === b) {
+  if (num & 4 === 0) {
     return true;
   } 
 };
