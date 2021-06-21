@@ -5,7 +5,7 @@ const ftoc = function(tempFa) {
 };
 
 const ctof = function(tempCe) {
-  tempCe = tempCe * (9/5 + 32);
+  tempCe = (tempCe * 9/5) + 32;
   let tempCeRounded = Math.round(tempCe * 10) / 10;
   return tempCeRounded;
 
