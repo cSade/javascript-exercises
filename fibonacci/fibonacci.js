@@ -3,7 +3,7 @@ const fibonacci = function(number) {
   for(let i =2; i < number; i++){
     numbers[i] = numbers[i - 2] + numbers[i - 1];
 }
-return numbers[number - 1];
+return numbers[number];
 };
 
 module.exports = fibonacci;
