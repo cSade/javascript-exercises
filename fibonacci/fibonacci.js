@@ -5,7 +5,7 @@ const fibonacci = function(number) {
     let b = numbers[i - 1];
     numbers.push(a+b);
 }
-return numbers [number - 1];
+return numbers [number];
 };
 
 module.exports = fibonacci;
